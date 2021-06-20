@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/kapuc/ft_printf/ft_printf.c
+includes/ft_printf.h
+C:/Users/kapuc/ft_printf/includes/ft_printf.h
+
+C:/Users/kapuc/ft_printf/ft_printf_c.c
+includes/ft_printf.h
+C:/Users/kapuc/ft_printf/includes/ft_printf.h
+
+C:/Users/kapuc/ft_printf/ft_printf_d.c
+includes/ft_printf.h
+C:/Users/kapuc/ft_printf/includes/ft_printf.h
+
+C:/Users/kapuc/ft_printf/includes/ft_printf.h
+../libft/libft.h
+C:/Users/kapuc/ft_printf/libft/libft.h
+
+C:/Users/kapuc/ft_printf/libft/libft.h
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+
+C:/Users/kapuc/ft_printf/main.c
+includes/ft_printf.h
+C:/Users/kapuc/ft_printf/includes/ft_printf.h
+
