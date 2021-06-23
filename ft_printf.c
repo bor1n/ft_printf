@@ -12,6 +12,8 @@ void get_args(t_flags *flags, const char **format, va_list *args)
     flags->dot = 0;
 	flags->asterisk = 0;
     flags->precision = 1;
+    flags->default_precision = 1;
+    flags->type = 0;
     if (**format == '0')
     {
         flags->zero = 1;
@@ -45,12 +47,14 @@ void get_args(t_flags *flags, const char **format, va_list *args)
 		flags->dot = 1;
 	    if (**format == '*')
 	    {
-		    flags->width = va_arg(*args, int);
+		    flags->precision = va_arg(*args, int);
+		    flags->asterisk = 1;
+		    flags->default_precision = 0;
 			(*format)++;
-			flags->asterisk = 1;
 	    }
 	    if (ft_isdigit(**format))
 	    {
+            flags->default_precision = 0;
 			precision = ft_atoi(*format);
 		    while (ft_isdigit(**format))
 				(*format)++;

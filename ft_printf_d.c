@@ -14,19 +14,12 @@ static int	print_precision(int d, int precision)
 
 	minus = 0;
 	result = get_int_length(d);
-	if (d < 0)
-	{
-		ft_putchar_fd('-', 1);
-		d *= -1;
-		minus = 1;
-	}
 	while (result < precision)
 	{
 		ft_putchar_fd('0', 1);
 		result++;
 	}
 	ft_putunbr_fd(d, 1);
-	result += minus;
 	return (result);
 }
 
@@ -40,6 +33,8 @@ static int	print_align_left(int d, int width, t_flags flags)
 		ft_putchar_fd(' ', 1);
 		temp++;
 	}
+	if (d < 0)
+	    width++;
 	return (width);
 }
 
@@ -47,15 +42,26 @@ static int print_align_right(int d, int width, t_flags flags)
 {
 	char	space_symbol;
 	int		temp;
+	int     minus;
 
 	temp = 0;
+	minus = 0;
 	space_symbol = get_space_symbol(flags.zero);
+    if (d < 0 && space_symbol == '0')
+    {
+        ft_putchar_fd('-', 1);
+        d *= -1;
+        minus = 1;
+        width--;
+    }
 	while (temp < width - max(get_int_length(d), flags.precision) - d_is_negative(d))
 	{
 		ft_putchar_fd(space_symbol, 1);
 		temp++;
 	}
 	print_precision(d, flags.precision);
+	if (minus == 1)
+	    width += 2;
 	return (width);
 }
 

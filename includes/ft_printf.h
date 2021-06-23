@@ -11,10 +11,12 @@ typedef struct	s_flags
 	int		dot;
 	int     asterisk;
 	int     precision;
+	int     default_precision;
 	char    type;
 }				t_flags;
 
 int	max(int x, int y);
+int	min(int x, int y);
 int	calculate_width(int arg, int width);
 char	get_space_symbol(int zero);
 int	get_int_length(int n);

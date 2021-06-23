@@ -13,7 +13,7 @@ static void	putstr_len(char *s, int length)
 static int	get_length(char *s, t_flags flags)
 {
 	if (flags.dot == 1)
-		return (flags.precision);
+		return (min(flags.precision, (int)ft_strlen(s)));
 	return ((int)ft_strlen(s));
 }
 
@@ -49,10 +49,15 @@ static int print_align_right(char *s, int width, t_flags flags)
 	return (width);
 }
 
-int ft_printf_s(t_flags flags, char *s)
-{
-	int		width;
+int ft_printf_s(t_flags flags, char *s) {
+    int width;
 
+    if (s == 0)
+        return ft_printf_s(flags, "(null)");
+	if (flags.dot && flags.default_precision)
+	    flags.precision = 0;
+	if (flags.precision < 0)
+	    flags.precision = (int)ft_strlen(s);
 	width = max(get_length(s, flags), flags.width);
 	if (flags.minus == 1)
 		return (print_align_left(s, width, flags));

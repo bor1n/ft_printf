@@ -24,14 +24,14 @@ int		ft_check_characters(char *base)
 	return (0);
 }
 
-void	print_number(int nbr, char *base, int length)
+void	print_number(int nbr, char *base, int length, int fd)
 {
 	int index_of_symbol;
 
 	if (nbr != 0 && (nbr / length != 0))
-		print_number(nbr / length, base, length);
+		print_number(nbr / length, base, length, fd);
 	index_of_symbol = nbr % length;
-	ft_putchar_fd(base[index_of_symbol], 1);
+	ft_putchar_fd(base[index_of_symbol], fd);
 }
 
 void	ft_putunbr_base_fd(int nbr, char *base, int fd)
@@ -41,6 +41,6 @@ void	ft_putunbr_base_fd(int nbr, char *base, int fd)
 	if (ft_check_characters(base))
 		return ;
 	length = (int)ft_strlen(base);
-	print_number(nbr, base, length);
+	print_number(nbr, base, length, fd);
 }
 

@@ -15,13 +15,6 @@ int get_power_of(unsigned int d, int base)
 	return (result);
 }
 
-int	max(int x, int y)
-{
-	if (x > y)
-		return (x);
-	return (y);
-}
-
 int	get_int_length(int n)
 {
 	int	size;

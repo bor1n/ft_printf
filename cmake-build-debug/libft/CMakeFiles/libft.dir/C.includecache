@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/egor/CLionProjects/ft_printf/libft/ft_putunbr_base_fd.c
+libft.h
+/Users/egor/CLionProjects/ft_printf/libft/libft.h
+
+/Users/egor/CLionProjects/ft_printf/libft/libft.h
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+
