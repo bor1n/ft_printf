@@ -14,13 +14,19 @@ static int	print_precision(int d, int precision)
 
 	minus = 0;
 	result = get_int_length(d);
+	if (d < 0)
+	{
+		ft_putchar_fd('-', 1);
+		d *= -1;
+		minus = 1;
+	}
 	while (result < precision)
 	{
 		ft_putchar_fd('0', 1);
 		result++;
 	}
 	ft_putunbr_fd(d, 1);
-	return (result);
+	return (result + minus);
 }
 
 static int	print_align_left(int d, int width, t_flags flags)
@@ -34,8 +40,8 @@ static int	print_align_left(int d, int width, t_flags flags)
 		temp++;
 	}
 	if (d < 0)
-	    width++;
-	return (width);
+	    temp++;
+	return (temp);
 }
 
 static int print_align_right(int d, int width, t_flags flags)

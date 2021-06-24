@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/kapuc/ft_printf/includes/ft_printf.h
+C:/Users/kapuc/fake/includes/ft_printf.h
 ../libft/libft.h
-C:/Users/kapuc/ft_printf/libft/libft.h
+C:/Users/kapuc/fake/libft/libft.h
 stdarg.h
 -
 
-C:/Users/kapuc/ft_printf/libft/libft.h
+C:/Users/kapuc/fake/libft/libft.h
 string.h
 -
 stdio.h
@@ -22,7 +22,7 @@ stdlib.h
 unistd.h
 -
 
-C:/Users/kapuc/ft_printf/main.c
+C:/Users/kapuc/fake/main.c
 includes/ft_printf.h
-C:/Users/kapuc/ft_printf/includes/ft_printf.h
+C:/Users/kapuc/fake/includes/ft_printf.h
 

@@ -66,10 +66,10 @@ RM = C:\Users\kapuc\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7142.21\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\kapuc\ft_printf
+CMAKE_SOURCE_DIR = C:\Users\kapuc\fake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\kapuc\ft_printf\cmake-build-debug-mingw
+CMAKE_BINARY_DIR = C:\Users\kapuc\fake\cmake-build-debug-mingw
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,14 +98,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kapuc\ft_printf\cmake-build-debug-mingw\CMakeFiles C:\Users\kapuc\ft_printf\cmake-build-debug-mingw\libft\\CMakeFiles\progress.marks
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libft/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kapuc\ft_printf\cmake-build-debug-mingw\CMakeFiles 0
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kapuc\fake\cmake-build-debug-mingw\CMakeFiles C:\Users\kapuc\fake\cmake-build-debug-mingw\libft\\CMakeFiles\progress.marks
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libft/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kapuc\fake\cmake-build-debug-mingw\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libft/clean
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libft/clean
 .PHONY : clean
 
 # The main clean target
@@ -115,22 +115,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libft/preinstall
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libft/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libft/preinstall
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libft/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libft/CMakeFiles/libft.dir/rule:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libft/CMakeFiles/libft.dir/rule
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libft/CMakeFiles/libft.dir/rule
 .PHONY : libft/CMakeFiles/libft.dir/rule
 
 # Convenience name for target.
@@ -140,7 +140,7 @@ libft: libft/CMakeFiles/libft.dir/rule
 
 # fast build rule for target.
 libft/fast:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/build
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/build
 .PHONY : libft/fast
 
 ft_atoi.obj: ft_atoi.c.obj
@@ -149,7 +149,7 @@ ft_atoi.obj: ft_atoi.c.obj
 
 # target to build an object file
 ft_atoi.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_atoi.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_atoi.c.obj
 .PHONY : ft_atoi.c.obj
 
 ft_atoi.i: ft_atoi.c.i
@@ -158,7 +158,7 @@ ft_atoi.i: ft_atoi.c.i
 
 # target to preprocess a source file
 ft_atoi.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_atoi.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_atoi.c.i
 .PHONY : ft_atoi.c.i
 
 ft_atoi.s: ft_atoi.c.s
@@ -167,7 +167,7 @@ ft_atoi.s: ft_atoi.c.s
 
 # target to generate assembly for a file
 ft_atoi.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_atoi.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_atoi.c.s
 .PHONY : ft_atoi.c.s
 
 ft_bzero.obj: ft_bzero.c.obj
@@ -176,7 +176,7 @@ ft_bzero.obj: ft_bzero.c.obj
 
 # target to build an object file
 ft_bzero.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_bzero.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_bzero.c.obj
 .PHONY : ft_bzero.c.obj
 
 ft_bzero.i: ft_bzero.c.i
@@ -185,7 +185,7 @@ ft_bzero.i: ft_bzero.c.i
 
 # target to preprocess a source file
 ft_bzero.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_bzero.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_bzero.c.i
 .PHONY : ft_bzero.c.i
 
 ft_bzero.s: ft_bzero.c.s
@@ -194,7 +194,7 @@ ft_bzero.s: ft_bzero.c.s
 
 # target to generate assembly for a file
 ft_bzero.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_bzero.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_bzero.c.s
 .PHONY : ft_bzero.c.s
 
 ft_calloc.obj: ft_calloc.c.obj
@@ -203,7 +203,7 @@ ft_calloc.obj: ft_calloc.c.obj
 
 # target to build an object file
 ft_calloc.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_calloc.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_calloc.c.obj
 .PHONY : ft_calloc.c.obj
 
 ft_calloc.i: ft_calloc.c.i
@@ -212,7 +212,7 @@ ft_calloc.i: ft_calloc.c.i
 
 # target to preprocess a source file
 ft_calloc.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_calloc.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_calloc.c.i
 .PHONY : ft_calloc.c.i
 
 ft_calloc.s: ft_calloc.c.s
@@ -221,7 +221,7 @@ ft_calloc.s: ft_calloc.c.s
 
 # target to generate assembly for a file
 ft_calloc.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_calloc.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_calloc.c.s
 .PHONY : ft_calloc.c.s
 
 ft_isalnum.obj: ft_isalnum.c.obj
@@ -230,7 +230,7 @@ ft_isalnum.obj: ft_isalnum.c.obj
 
 # target to build an object file
 ft_isalnum.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isalnum.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isalnum.c.obj
 .PHONY : ft_isalnum.c.obj
 
 ft_isalnum.i: ft_isalnum.c.i
@@ -239,7 +239,7 @@ ft_isalnum.i: ft_isalnum.c.i
 
 # target to preprocess a source file
 ft_isalnum.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isalnum.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isalnum.c.i
 .PHONY : ft_isalnum.c.i
 
 ft_isalnum.s: ft_isalnum.c.s
@@ -248,7 +248,7 @@ ft_isalnum.s: ft_isalnum.c.s
 
 # target to generate assembly for a file
 ft_isalnum.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isalnum.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isalnum.c.s
 .PHONY : ft_isalnum.c.s
 
 ft_isalpha.obj: ft_isalpha.c.obj
@@ -257,7 +257,7 @@ ft_isalpha.obj: ft_isalpha.c.obj
 
 # target to build an object file
 ft_isalpha.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isalpha.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isalpha.c.obj
 .PHONY : ft_isalpha.c.obj
 
 ft_isalpha.i: ft_isalpha.c.i
@@ -266,7 +266,7 @@ ft_isalpha.i: ft_isalpha.c.i
 
 # target to preprocess a source file
 ft_isalpha.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isalpha.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isalpha.c.i
 .PHONY : ft_isalpha.c.i
 
 ft_isalpha.s: ft_isalpha.c.s
@@ -275,7 +275,7 @@ ft_isalpha.s: ft_isalpha.c.s
 
 # target to generate assembly for a file
 ft_isalpha.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isalpha.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isalpha.c.s
 .PHONY : ft_isalpha.c.s
 
 ft_isascii.obj: ft_isascii.c.obj
@@ -284,7 +284,7 @@ ft_isascii.obj: ft_isascii.c.obj
 
 # target to build an object file
 ft_isascii.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isascii.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isascii.c.obj
 .PHONY : ft_isascii.c.obj
 
 ft_isascii.i: ft_isascii.c.i
@@ -293,7 +293,7 @@ ft_isascii.i: ft_isascii.c.i
 
 # target to preprocess a source file
 ft_isascii.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isascii.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isascii.c.i
 .PHONY : ft_isascii.c.i
 
 ft_isascii.s: ft_isascii.c.s
@@ -302,7 +302,7 @@ ft_isascii.s: ft_isascii.c.s
 
 # target to generate assembly for a file
 ft_isascii.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isascii.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isascii.c.s
 .PHONY : ft_isascii.c.s
 
 ft_isdigit.obj: ft_isdigit.c.obj
@@ -311,7 +311,7 @@ ft_isdigit.obj: ft_isdigit.c.obj
 
 # target to build an object file
 ft_isdigit.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isdigit.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isdigit.c.obj
 .PHONY : ft_isdigit.c.obj
 
 ft_isdigit.i: ft_isdigit.c.i
@@ -320,7 +320,7 @@ ft_isdigit.i: ft_isdigit.c.i
 
 # target to preprocess a source file
 ft_isdigit.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isdigit.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isdigit.c.i
 .PHONY : ft_isdigit.c.i
 
 ft_isdigit.s: ft_isdigit.c.s
@@ -329,7 +329,7 @@ ft_isdigit.s: ft_isdigit.c.s
 
 # target to generate assembly for a file
 ft_isdigit.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isdigit.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isdigit.c.s
 .PHONY : ft_isdigit.c.s
 
 ft_isprint.obj: ft_isprint.c.obj
@@ -338,7 +338,7 @@ ft_isprint.obj: ft_isprint.c.obj
 
 # target to build an object file
 ft_isprint.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isprint.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isprint.c.obj
 .PHONY : ft_isprint.c.obj
 
 ft_isprint.i: ft_isprint.c.i
@@ -347,7 +347,7 @@ ft_isprint.i: ft_isprint.c.i
 
 # target to preprocess a source file
 ft_isprint.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isprint.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isprint.c.i
 .PHONY : ft_isprint.c.i
 
 ft_isprint.s: ft_isprint.c.s
@@ -356,7 +356,7 @@ ft_isprint.s: ft_isprint.c.s
 
 # target to generate assembly for a file
 ft_isprint.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isprint.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_isprint.c.s
 .PHONY : ft_isprint.c.s
 
 ft_itoa.obj: ft_itoa.c.obj
@@ -365,7 +365,7 @@ ft_itoa.obj: ft_itoa.c.obj
 
 # target to build an object file
 ft_itoa.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_itoa.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_itoa.c.obj
 .PHONY : ft_itoa.c.obj
 
 ft_itoa.i: ft_itoa.c.i
@@ -374,7 +374,7 @@ ft_itoa.i: ft_itoa.c.i
 
 # target to preprocess a source file
 ft_itoa.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_itoa.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_itoa.c.i
 .PHONY : ft_itoa.c.i
 
 ft_itoa.s: ft_itoa.c.s
@@ -383,7 +383,7 @@ ft_itoa.s: ft_itoa.c.s
 
 # target to generate assembly for a file
 ft_itoa.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_itoa.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_itoa.c.s
 .PHONY : ft_itoa.c.s
 
 ft_lstadd_back.obj: ft_lstadd_back.c.obj
@@ -392,7 +392,7 @@ ft_lstadd_back.obj: ft_lstadd_back.c.obj
 
 # target to build an object file
 ft_lstadd_back.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstadd_back.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstadd_back.c.obj
 .PHONY : ft_lstadd_back.c.obj
 
 ft_lstadd_back.i: ft_lstadd_back.c.i
@@ -401,7 +401,7 @@ ft_lstadd_back.i: ft_lstadd_back.c.i
 
 # target to preprocess a source file
 ft_lstadd_back.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstadd_back.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstadd_back.c.i
 .PHONY : ft_lstadd_back.c.i
 
 ft_lstadd_back.s: ft_lstadd_back.c.s
@@ -410,7 +410,7 @@ ft_lstadd_back.s: ft_lstadd_back.c.s
 
 # target to generate assembly for a file
 ft_lstadd_back.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstadd_back.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstadd_back.c.s
 .PHONY : ft_lstadd_back.c.s
 
 ft_lstadd_front.obj: ft_lstadd_front.c.obj
@@ -419,7 +419,7 @@ ft_lstadd_front.obj: ft_lstadd_front.c.obj
 
 # target to build an object file
 ft_lstadd_front.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstadd_front.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstadd_front.c.obj
 .PHONY : ft_lstadd_front.c.obj
 
 ft_lstadd_front.i: ft_lstadd_front.c.i
@@ -428,7 +428,7 @@ ft_lstadd_front.i: ft_lstadd_front.c.i
 
 # target to preprocess a source file
 ft_lstadd_front.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstadd_front.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstadd_front.c.i
 .PHONY : ft_lstadd_front.c.i
 
 ft_lstadd_front.s: ft_lstadd_front.c.s
@@ -437,7 +437,7 @@ ft_lstadd_front.s: ft_lstadd_front.c.s
 
 # target to generate assembly for a file
 ft_lstadd_front.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstadd_front.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstadd_front.c.s
 .PHONY : ft_lstadd_front.c.s
 
 ft_lstclear.obj: ft_lstclear.c.obj
@@ -446,7 +446,7 @@ ft_lstclear.obj: ft_lstclear.c.obj
 
 # target to build an object file
 ft_lstclear.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstclear.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstclear.c.obj
 .PHONY : ft_lstclear.c.obj
 
 ft_lstclear.i: ft_lstclear.c.i
@@ -455,7 +455,7 @@ ft_lstclear.i: ft_lstclear.c.i
 
 # target to preprocess a source file
 ft_lstclear.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstclear.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstclear.c.i
 .PHONY : ft_lstclear.c.i
 
 ft_lstclear.s: ft_lstclear.c.s
@@ -464,7 +464,7 @@ ft_lstclear.s: ft_lstclear.c.s
 
 # target to generate assembly for a file
 ft_lstclear.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstclear.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstclear.c.s
 .PHONY : ft_lstclear.c.s
 
 ft_lstdelone.obj: ft_lstdelone.c.obj
@@ -473,7 +473,7 @@ ft_lstdelone.obj: ft_lstdelone.c.obj
 
 # target to build an object file
 ft_lstdelone.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstdelone.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstdelone.c.obj
 .PHONY : ft_lstdelone.c.obj
 
 ft_lstdelone.i: ft_lstdelone.c.i
@@ -482,7 +482,7 @@ ft_lstdelone.i: ft_lstdelone.c.i
 
 # target to preprocess a source file
 ft_lstdelone.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstdelone.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstdelone.c.i
 .PHONY : ft_lstdelone.c.i
 
 ft_lstdelone.s: ft_lstdelone.c.s
@@ -491,7 +491,7 @@ ft_lstdelone.s: ft_lstdelone.c.s
 
 # target to generate assembly for a file
 ft_lstdelone.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstdelone.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstdelone.c.s
 .PHONY : ft_lstdelone.c.s
 
 ft_lstiter.obj: ft_lstiter.c.obj
@@ -500,7 +500,7 @@ ft_lstiter.obj: ft_lstiter.c.obj
 
 # target to build an object file
 ft_lstiter.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstiter.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstiter.c.obj
 .PHONY : ft_lstiter.c.obj
 
 ft_lstiter.i: ft_lstiter.c.i
@@ -509,7 +509,7 @@ ft_lstiter.i: ft_lstiter.c.i
 
 # target to preprocess a source file
 ft_lstiter.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstiter.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstiter.c.i
 .PHONY : ft_lstiter.c.i
 
 ft_lstiter.s: ft_lstiter.c.s
@@ -518,7 +518,7 @@ ft_lstiter.s: ft_lstiter.c.s
 
 # target to generate assembly for a file
 ft_lstiter.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstiter.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstiter.c.s
 .PHONY : ft_lstiter.c.s
 
 ft_lstlast.obj: ft_lstlast.c.obj
@@ -527,7 +527,7 @@ ft_lstlast.obj: ft_lstlast.c.obj
 
 # target to build an object file
 ft_lstlast.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstlast.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstlast.c.obj
 .PHONY : ft_lstlast.c.obj
 
 ft_lstlast.i: ft_lstlast.c.i
@@ -536,7 +536,7 @@ ft_lstlast.i: ft_lstlast.c.i
 
 # target to preprocess a source file
 ft_lstlast.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstlast.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstlast.c.i
 .PHONY : ft_lstlast.c.i
 
 ft_lstlast.s: ft_lstlast.c.s
@@ -545,7 +545,7 @@ ft_lstlast.s: ft_lstlast.c.s
 
 # target to generate assembly for a file
 ft_lstlast.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstlast.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstlast.c.s
 .PHONY : ft_lstlast.c.s
 
 ft_lstmap.obj: ft_lstmap.c.obj
@@ -554,7 +554,7 @@ ft_lstmap.obj: ft_lstmap.c.obj
 
 # target to build an object file
 ft_lstmap.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstmap.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstmap.c.obj
 .PHONY : ft_lstmap.c.obj
 
 ft_lstmap.i: ft_lstmap.c.i
@@ -563,7 +563,7 @@ ft_lstmap.i: ft_lstmap.c.i
 
 # target to preprocess a source file
 ft_lstmap.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstmap.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstmap.c.i
 .PHONY : ft_lstmap.c.i
 
 ft_lstmap.s: ft_lstmap.c.s
@@ -572,7 +572,7 @@ ft_lstmap.s: ft_lstmap.c.s
 
 # target to generate assembly for a file
 ft_lstmap.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstmap.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstmap.c.s
 .PHONY : ft_lstmap.c.s
 
 ft_lstnew.obj: ft_lstnew.c.obj
@@ -581,7 +581,7 @@ ft_lstnew.obj: ft_lstnew.c.obj
 
 # target to build an object file
 ft_lstnew.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstnew.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstnew.c.obj
 .PHONY : ft_lstnew.c.obj
 
 ft_lstnew.i: ft_lstnew.c.i
@@ -590,7 +590,7 @@ ft_lstnew.i: ft_lstnew.c.i
 
 # target to preprocess a source file
 ft_lstnew.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstnew.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstnew.c.i
 .PHONY : ft_lstnew.c.i
 
 ft_lstnew.s: ft_lstnew.c.s
@@ -599,7 +599,7 @@ ft_lstnew.s: ft_lstnew.c.s
 
 # target to generate assembly for a file
 ft_lstnew.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstnew.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstnew.c.s
 .PHONY : ft_lstnew.c.s
 
 ft_lstsize.obj: ft_lstsize.c.obj
@@ -608,7 +608,7 @@ ft_lstsize.obj: ft_lstsize.c.obj
 
 # target to build an object file
 ft_lstsize.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstsize.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstsize.c.obj
 .PHONY : ft_lstsize.c.obj
 
 ft_lstsize.i: ft_lstsize.c.i
@@ -617,7 +617,7 @@ ft_lstsize.i: ft_lstsize.c.i
 
 # target to preprocess a source file
 ft_lstsize.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstsize.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstsize.c.i
 .PHONY : ft_lstsize.c.i
 
 ft_lstsize.s: ft_lstsize.c.s
@@ -626,7 +626,7 @@ ft_lstsize.s: ft_lstsize.c.s
 
 # target to generate assembly for a file
 ft_lstsize.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstsize.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_lstsize.c.s
 .PHONY : ft_lstsize.c.s
 
 ft_memccpy.obj: ft_memccpy.c.obj
@@ -635,7 +635,7 @@ ft_memccpy.obj: ft_memccpy.c.obj
 
 # target to build an object file
 ft_memccpy.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memccpy.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memccpy.c.obj
 .PHONY : ft_memccpy.c.obj
 
 ft_memccpy.i: ft_memccpy.c.i
@@ -644,7 +644,7 @@ ft_memccpy.i: ft_memccpy.c.i
 
 # target to preprocess a source file
 ft_memccpy.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memccpy.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memccpy.c.i
 .PHONY : ft_memccpy.c.i
 
 ft_memccpy.s: ft_memccpy.c.s
@@ -653,7 +653,7 @@ ft_memccpy.s: ft_memccpy.c.s
 
 # target to generate assembly for a file
 ft_memccpy.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memccpy.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memccpy.c.s
 .PHONY : ft_memccpy.c.s
 
 ft_memchr.obj: ft_memchr.c.obj
@@ -662,7 +662,7 @@ ft_memchr.obj: ft_memchr.c.obj
 
 # target to build an object file
 ft_memchr.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memchr.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memchr.c.obj
 .PHONY : ft_memchr.c.obj
 
 ft_memchr.i: ft_memchr.c.i
@@ -671,7 +671,7 @@ ft_memchr.i: ft_memchr.c.i
 
 # target to preprocess a source file
 ft_memchr.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memchr.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memchr.c.i
 .PHONY : ft_memchr.c.i
 
 ft_memchr.s: ft_memchr.c.s
@@ -680,7 +680,7 @@ ft_memchr.s: ft_memchr.c.s
 
 # target to generate assembly for a file
 ft_memchr.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memchr.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memchr.c.s
 .PHONY : ft_memchr.c.s
 
 ft_memcmp.obj: ft_memcmp.c.obj
@@ -689,7 +689,7 @@ ft_memcmp.obj: ft_memcmp.c.obj
 
 # target to build an object file
 ft_memcmp.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memcmp.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memcmp.c.obj
 .PHONY : ft_memcmp.c.obj
 
 ft_memcmp.i: ft_memcmp.c.i
@@ -698,7 +698,7 @@ ft_memcmp.i: ft_memcmp.c.i
 
 # target to preprocess a source file
 ft_memcmp.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memcmp.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memcmp.c.i
 .PHONY : ft_memcmp.c.i
 
 ft_memcmp.s: ft_memcmp.c.s
@@ -707,7 +707,7 @@ ft_memcmp.s: ft_memcmp.c.s
 
 # target to generate assembly for a file
 ft_memcmp.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memcmp.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memcmp.c.s
 .PHONY : ft_memcmp.c.s
 
 ft_memcpy.obj: ft_memcpy.c.obj
@@ -716,7 +716,7 @@ ft_memcpy.obj: ft_memcpy.c.obj
 
 # target to build an object file
 ft_memcpy.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memcpy.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memcpy.c.obj
 .PHONY : ft_memcpy.c.obj
 
 ft_memcpy.i: ft_memcpy.c.i
@@ -725,7 +725,7 @@ ft_memcpy.i: ft_memcpy.c.i
 
 # target to preprocess a source file
 ft_memcpy.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memcpy.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memcpy.c.i
 .PHONY : ft_memcpy.c.i
 
 ft_memcpy.s: ft_memcpy.c.s
@@ -734,7 +734,7 @@ ft_memcpy.s: ft_memcpy.c.s
 
 # target to generate assembly for a file
 ft_memcpy.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memcpy.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memcpy.c.s
 .PHONY : ft_memcpy.c.s
 
 ft_memmove.obj: ft_memmove.c.obj
@@ -743,7 +743,7 @@ ft_memmove.obj: ft_memmove.c.obj
 
 # target to build an object file
 ft_memmove.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memmove.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memmove.c.obj
 .PHONY : ft_memmove.c.obj
 
 ft_memmove.i: ft_memmove.c.i
@@ -752,7 +752,7 @@ ft_memmove.i: ft_memmove.c.i
 
 # target to preprocess a source file
 ft_memmove.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memmove.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memmove.c.i
 .PHONY : ft_memmove.c.i
 
 ft_memmove.s: ft_memmove.c.s
@@ -761,7 +761,7 @@ ft_memmove.s: ft_memmove.c.s
 
 # target to generate assembly for a file
 ft_memmove.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memmove.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memmove.c.s
 .PHONY : ft_memmove.c.s
 
 ft_memset.obj: ft_memset.c.obj
@@ -770,7 +770,7 @@ ft_memset.obj: ft_memset.c.obj
 
 # target to build an object file
 ft_memset.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memset.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memset.c.obj
 .PHONY : ft_memset.c.obj
 
 ft_memset.i: ft_memset.c.i
@@ -779,7 +779,7 @@ ft_memset.i: ft_memset.c.i
 
 # target to preprocess a source file
 ft_memset.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memset.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memset.c.i
 .PHONY : ft_memset.c.i
 
 ft_memset.s: ft_memset.c.s
@@ -788,7 +788,7 @@ ft_memset.s: ft_memset.c.s
 
 # target to generate assembly for a file
 ft_memset.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memset.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_memset.c.s
 .PHONY : ft_memset.c.s
 
 ft_putchar_fd.obj: ft_putchar_fd.c.obj
@@ -797,7 +797,7 @@ ft_putchar_fd.obj: ft_putchar_fd.c.obj
 
 # target to build an object file
 ft_putchar_fd.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putchar_fd.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putchar_fd.c.obj
 .PHONY : ft_putchar_fd.c.obj
 
 ft_putchar_fd.i: ft_putchar_fd.c.i
@@ -806,7 +806,7 @@ ft_putchar_fd.i: ft_putchar_fd.c.i
 
 # target to preprocess a source file
 ft_putchar_fd.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putchar_fd.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putchar_fd.c.i
 .PHONY : ft_putchar_fd.c.i
 
 ft_putchar_fd.s: ft_putchar_fd.c.s
@@ -815,7 +815,7 @@ ft_putchar_fd.s: ft_putchar_fd.c.s
 
 # target to generate assembly for a file
 ft_putchar_fd.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putchar_fd.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putchar_fd.c.s
 .PHONY : ft_putchar_fd.c.s
 
 ft_putendl_fd.obj: ft_putendl_fd.c.obj
@@ -824,7 +824,7 @@ ft_putendl_fd.obj: ft_putendl_fd.c.obj
 
 # target to build an object file
 ft_putendl_fd.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putendl_fd.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putendl_fd.c.obj
 .PHONY : ft_putendl_fd.c.obj
 
 ft_putendl_fd.i: ft_putendl_fd.c.i
@@ -833,7 +833,7 @@ ft_putendl_fd.i: ft_putendl_fd.c.i
 
 # target to preprocess a source file
 ft_putendl_fd.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putendl_fd.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putendl_fd.c.i
 .PHONY : ft_putendl_fd.c.i
 
 ft_putendl_fd.s: ft_putendl_fd.c.s
@@ -842,7 +842,7 @@ ft_putendl_fd.s: ft_putendl_fd.c.s
 
 # target to generate assembly for a file
 ft_putendl_fd.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putendl_fd.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putendl_fd.c.s
 .PHONY : ft_putendl_fd.c.s
 
 ft_putnbr_fd.obj: ft_putnbr_fd.c.obj
@@ -851,7 +851,7 @@ ft_putnbr_fd.obj: ft_putnbr_fd.c.obj
 
 # target to build an object file
 ft_putnbr_fd.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putnbr_fd.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putnbr_fd.c.obj
 .PHONY : ft_putnbr_fd.c.obj
 
 ft_putnbr_fd.i: ft_putnbr_fd.c.i
@@ -860,7 +860,7 @@ ft_putnbr_fd.i: ft_putnbr_fd.c.i
 
 # target to preprocess a source file
 ft_putnbr_fd.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putnbr_fd.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putnbr_fd.c.i
 .PHONY : ft_putnbr_fd.c.i
 
 ft_putnbr_fd.s: ft_putnbr_fd.c.s
@@ -869,7 +869,7 @@ ft_putnbr_fd.s: ft_putnbr_fd.c.s
 
 # target to generate assembly for a file
 ft_putnbr_fd.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putnbr_fd.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putnbr_fd.c.s
 .PHONY : ft_putnbr_fd.c.s
 
 ft_putstr_fd.obj: ft_putstr_fd.c.obj
@@ -878,7 +878,7 @@ ft_putstr_fd.obj: ft_putstr_fd.c.obj
 
 # target to build an object file
 ft_putstr_fd.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putstr_fd.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putstr_fd.c.obj
 .PHONY : ft_putstr_fd.c.obj
 
 ft_putstr_fd.i: ft_putstr_fd.c.i
@@ -887,7 +887,7 @@ ft_putstr_fd.i: ft_putstr_fd.c.i
 
 # target to preprocess a source file
 ft_putstr_fd.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putstr_fd.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putstr_fd.c.i
 .PHONY : ft_putstr_fd.c.i
 
 ft_putstr_fd.s: ft_putstr_fd.c.s
@@ -896,7 +896,7 @@ ft_putstr_fd.s: ft_putstr_fd.c.s
 
 # target to generate assembly for a file
 ft_putstr_fd.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putstr_fd.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putstr_fd.c.s
 .PHONY : ft_putstr_fd.c.s
 
 ft_putunbr_base_fd.obj: ft_putunbr_base_fd.c.obj
@@ -905,7 +905,7 @@ ft_putunbr_base_fd.obj: ft_putunbr_base_fd.c.obj
 
 # target to build an object file
 ft_putunbr_base_fd.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putunbr_base_fd.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putunbr_base_fd.c.obj
 .PHONY : ft_putunbr_base_fd.c.obj
 
 ft_putunbr_base_fd.i: ft_putunbr_base_fd.c.i
@@ -914,7 +914,7 @@ ft_putunbr_base_fd.i: ft_putunbr_base_fd.c.i
 
 # target to preprocess a source file
 ft_putunbr_base_fd.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putunbr_base_fd.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putunbr_base_fd.c.i
 .PHONY : ft_putunbr_base_fd.c.i
 
 ft_putunbr_base_fd.s: ft_putunbr_base_fd.c.s
@@ -923,7 +923,7 @@ ft_putunbr_base_fd.s: ft_putunbr_base_fd.c.s
 
 # target to generate assembly for a file
 ft_putunbr_base_fd.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putunbr_base_fd.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putunbr_base_fd.c.s
 .PHONY : ft_putunbr_base_fd.c.s
 
 ft_putunbr_fd.obj: ft_putunbr_fd.c.obj
@@ -932,7 +932,7 @@ ft_putunbr_fd.obj: ft_putunbr_fd.c.obj
 
 # target to build an object file
 ft_putunbr_fd.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putunbr_fd.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putunbr_fd.c.obj
 .PHONY : ft_putunbr_fd.c.obj
 
 ft_putunbr_fd.i: ft_putunbr_fd.c.i
@@ -941,7 +941,7 @@ ft_putunbr_fd.i: ft_putunbr_fd.c.i
 
 # target to preprocess a source file
 ft_putunbr_fd.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putunbr_fd.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putunbr_fd.c.i
 .PHONY : ft_putunbr_fd.c.i
 
 ft_putunbr_fd.s: ft_putunbr_fd.c.s
@@ -950,7 +950,7 @@ ft_putunbr_fd.s: ft_putunbr_fd.c.s
 
 # target to generate assembly for a file
 ft_putunbr_fd.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putunbr_fd.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_putunbr_fd.c.s
 .PHONY : ft_putunbr_fd.c.s
 
 ft_split.obj: ft_split.c.obj
@@ -959,7 +959,7 @@ ft_split.obj: ft_split.c.obj
 
 # target to build an object file
 ft_split.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_split.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_split.c.obj
 .PHONY : ft_split.c.obj
 
 ft_split.i: ft_split.c.i
@@ -968,7 +968,7 @@ ft_split.i: ft_split.c.i
 
 # target to preprocess a source file
 ft_split.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_split.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_split.c.i
 .PHONY : ft_split.c.i
 
 ft_split.s: ft_split.c.s
@@ -977,7 +977,7 @@ ft_split.s: ft_split.c.s
 
 # target to generate assembly for a file
 ft_split.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_split.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_split.c.s
 .PHONY : ft_split.c.s
 
 ft_strchr.obj: ft_strchr.c.obj
@@ -986,7 +986,7 @@ ft_strchr.obj: ft_strchr.c.obj
 
 # target to build an object file
 ft_strchr.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strchr.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strchr.c.obj
 .PHONY : ft_strchr.c.obj
 
 ft_strchr.i: ft_strchr.c.i
@@ -995,7 +995,7 @@ ft_strchr.i: ft_strchr.c.i
 
 # target to preprocess a source file
 ft_strchr.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strchr.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strchr.c.i
 .PHONY : ft_strchr.c.i
 
 ft_strchr.s: ft_strchr.c.s
@@ -1004,7 +1004,7 @@ ft_strchr.s: ft_strchr.c.s
 
 # target to generate assembly for a file
 ft_strchr.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strchr.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strchr.c.s
 .PHONY : ft_strchr.c.s
 
 ft_strdup.obj: ft_strdup.c.obj
@@ -1013,7 +1013,7 @@ ft_strdup.obj: ft_strdup.c.obj
 
 # target to build an object file
 ft_strdup.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strdup.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strdup.c.obj
 .PHONY : ft_strdup.c.obj
 
 ft_strdup.i: ft_strdup.c.i
@@ -1022,7 +1022,7 @@ ft_strdup.i: ft_strdup.c.i
 
 # target to preprocess a source file
 ft_strdup.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strdup.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strdup.c.i
 .PHONY : ft_strdup.c.i
 
 ft_strdup.s: ft_strdup.c.s
@@ -1031,7 +1031,7 @@ ft_strdup.s: ft_strdup.c.s
 
 # target to generate assembly for a file
 ft_strdup.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strdup.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strdup.c.s
 .PHONY : ft_strdup.c.s
 
 ft_strjoin.obj: ft_strjoin.c.obj
@@ -1040,7 +1040,7 @@ ft_strjoin.obj: ft_strjoin.c.obj
 
 # target to build an object file
 ft_strjoin.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strjoin.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strjoin.c.obj
 .PHONY : ft_strjoin.c.obj
 
 ft_strjoin.i: ft_strjoin.c.i
@@ -1049,7 +1049,7 @@ ft_strjoin.i: ft_strjoin.c.i
 
 # target to preprocess a source file
 ft_strjoin.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strjoin.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strjoin.c.i
 .PHONY : ft_strjoin.c.i
 
 ft_strjoin.s: ft_strjoin.c.s
@@ -1058,7 +1058,7 @@ ft_strjoin.s: ft_strjoin.c.s
 
 # target to generate assembly for a file
 ft_strjoin.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strjoin.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strjoin.c.s
 .PHONY : ft_strjoin.c.s
 
 ft_strlcat.obj: ft_strlcat.c.obj
@@ -1067,7 +1067,7 @@ ft_strlcat.obj: ft_strlcat.c.obj
 
 # target to build an object file
 ft_strlcat.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strlcat.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strlcat.c.obj
 .PHONY : ft_strlcat.c.obj
 
 ft_strlcat.i: ft_strlcat.c.i
@@ -1076,7 +1076,7 @@ ft_strlcat.i: ft_strlcat.c.i
 
 # target to preprocess a source file
 ft_strlcat.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strlcat.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strlcat.c.i
 .PHONY : ft_strlcat.c.i
 
 ft_strlcat.s: ft_strlcat.c.s
@@ -1085,7 +1085,7 @@ ft_strlcat.s: ft_strlcat.c.s
 
 # target to generate assembly for a file
 ft_strlcat.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strlcat.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strlcat.c.s
 .PHONY : ft_strlcat.c.s
 
 ft_strlcpy.obj: ft_strlcpy.c.obj
@@ -1094,7 +1094,7 @@ ft_strlcpy.obj: ft_strlcpy.c.obj
 
 # target to build an object file
 ft_strlcpy.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strlcpy.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strlcpy.c.obj
 .PHONY : ft_strlcpy.c.obj
 
 ft_strlcpy.i: ft_strlcpy.c.i
@@ -1103,7 +1103,7 @@ ft_strlcpy.i: ft_strlcpy.c.i
 
 # target to preprocess a source file
 ft_strlcpy.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strlcpy.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strlcpy.c.i
 .PHONY : ft_strlcpy.c.i
 
 ft_strlcpy.s: ft_strlcpy.c.s
@@ -1112,7 +1112,7 @@ ft_strlcpy.s: ft_strlcpy.c.s
 
 # target to generate assembly for a file
 ft_strlcpy.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strlcpy.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strlcpy.c.s
 .PHONY : ft_strlcpy.c.s
 
 ft_strlen.obj: ft_strlen.c.obj
@@ -1121,7 +1121,7 @@ ft_strlen.obj: ft_strlen.c.obj
 
 # target to build an object file
 ft_strlen.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strlen.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strlen.c.obj
 .PHONY : ft_strlen.c.obj
 
 ft_strlen.i: ft_strlen.c.i
@@ -1130,7 +1130,7 @@ ft_strlen.i: ft_strlen.c.i
 
 # target to preprocess a source file
 ft_strlen.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strlen.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strlen.c.i
 .PHONY : ft_strlen.c.i
 
 ft_strlen.s: ft_strlen.c.s
@@ -1139,7 +1139,7 @@ ft_strlen.s: ft_strlen.c.s
 
 # target to generate assembly for a file
 ft_strlen.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strlen.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strlen.c.s
 .PHONY : ft_strlen.c.s
 
 ft_strmapi.obj: ft_strmapi.c.obj
@@ -1148,7 +1148,7 @@ ft_strmapi.obj: ft_strmapi.c.obj
 
 # target to build an object file
 ft_strmapi.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strmapi.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strmapi.c.obj
 .PHONY : ft_strmapi.c.obj
 
 ft_strmapi.i: ft_strmapi.c.i
@@ -1157,7 +1157,7 @@ ft_strmapi.i: ft_strmapi.c.i
 
 # target to preprocess a source file
 ft_strmapi.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strmapi.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strmapi.c.i
 .PHONY : ft_strmapi.c.i
 
 ft_strmapi.s: ft_strmapi.c.s
@@ -1166,7 +1166,7 @@ ft_strmapi.s: ft_strmapi.c.s
 
 # target to generate assembly for a file
 ft_strmapi.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strmapi.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strmapi.c.s
 .PHONY : ft_strmapi.c.s
 
 ft_strncmp.obj: ft_strncmp.c.obj
@@ -1175,7 +1175,7 @@ ft_strncmp.obj: ft_strncmp.c.obj
 
 # target to build an object file
 ft_strncmp.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strncmp.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strncmp.c.obj
 .PHONY : ft_strncmp.c.obj
 
 ft_strncmp.i: ft_strncmp.c.i
@@ -1184,7 +1184,7 @@ ft_strncmp.i: ft_strncmp.c.i
 
 # target to preprocess a source file
 ft_strncmp.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strncmp.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strncmp.c.i
 .PHONY : ft_strncmp.c.i
 
 ft_strncmp.s: ft_strncmp.c.s
@@ -1193,7 +1193,7 @@ ft_strncmp.s: ft_strncmp.c.s
 
 # target to generate assembly for a file
 ft_strncmp.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strncmp.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strncmp.c.s
 .PHONY : ft_strncmp.c.s
 
 ft_strnstr.obj: ft_strnstr.c.obj
@@ -1202,7 +1202,7 @@ ft_strnstr.obj: ft_strnstr.c.obj
 
 # target to build an object file
 ft_strnstr.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strnstr.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strnstr.c.obj
 .PHONY : ft_strnstr.c.obj
 
 ft_strnstr.i: ft_strnstr.c.i
@@ -1211,7 +1211,7 @@ ft_strnstr.i: ft_strnstr.c.i
 
 # target to preprocess a source file
 ft_strnstr.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strnstr.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strnstr.c.i
 .PHONY : ft_strnstr.c.i
 
 ft_strnstr.s: ft_strnstr.c.s
@@ -1220,7 +1220,7 @@ ft_strnstr.s: ft_strnstr.c.s
 
 # target to generate assembly for a file
 ft_strnstr.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strnstr.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strnstr.c.s
 .PHONY : ft_strnstr.c.s
 
 ft_strrchr.obj: ft_strrchr.c.obj
@@ -1229,7 +1229,7 @@ ft_strrchr.obj: ft_strrchr.c.obj
 
 # target to build an object file
 ft_strrchr.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strrchr.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strrchr.c.obj
 .PHONY : ft_strrchr.c.obj
 
 ft_strrchr.i: ft_strrchr.c.i
@@ -1238,7 +1238,7 @@ ft_strrchr.i: ft_strrchr.c.i
 
 # target to preprocess a source file
 ft_strrchr.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strrchr.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strrchr.c.i
 .PHONY : ft_strrchr.c.i
 
 ft_strrchr.s: ft_strrchr.c.s
@@ -1247,7 +1247,7 @@ ft_strrchr.s: ft_strrchr.c.s
 
 # target to generate assembly for a file
 ft_strrchr.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strrchr.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strrchr.c.s
 .PHONY : ft_strrchr.c.s
 
 ft_strtrim.obj: ft_strtrim.c.obj
@@ -1256,7 +1256,7 @@ ft_strtrim.obj: ft_strtrim.c.obj
 
 # target to build an object file
 ft_strtrim.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strtrim.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strtrim.c.obj
 .PHONY : ft_strtrim.c.obj
 
 ft_strtrim.i: ft_strtrim.c.i
@@ -1265,7 +1265,7 @@ ft_strtrim.i: ft_strtrim.c.i
 
 # target to preprocess a source file
 ft_strtrim.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strtrim.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strtrim.c.i
 .PHONY : ft_strtrim.c.i
 
 ft_strtrim.s: ft_strtrim.c.s
@@ -1274,7 +1274,7 @@ ft_strtrim.s: ft_strtrim.c.s
 
 # target to generate assembly for a file
 ft_strtrim.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strtrim.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_strtrim.c.s
 .PHONY : ft_strtrim.c.s
 
 ft_substr.obj: ft_substr.c.obj
@@ -1283,7 +1283,7 @@ ft_substr.obj: ft_substr.c.obj
 
 # target to build an object file
 ft_substr.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_substr.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_substr.c.obj
 .PHONY : ft_substr.c.obj
 
 ft_substr.i: ft_substr.c.i
@@ -1292,7 +1292,7 @@ ft_substr.i: ft_substr.c.i
 
 # target to preprocess a source file
 ft_substr.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_substr.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_substr.c.i
 .PHONY : ft_substr.c.i
 
 ft_substr.s: ft_substr.c.s
@@ -1301,7 +1301,7 @@ ft_substr.s: ft_substr.c.s
 
 # target to generate assembly for a file
 ft_substr.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_substr.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_substr.c.s
 .PHONY : ft_substr.c.s
 
 ft_tolower.obj: ft_tolower.c.obj
@@ -1310,7 +1310,7 @@ ft_tolower.obj: ft_tolower.c.obj
 
 # target to build an object file
 ft_tolower.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_tolower.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_tolower.c.obj
 .PHONY : ft_tolower.c.obj
 
 ft_tolower.i: ft_tolower.c.i
@@ -1319,7 +1319,7 @@ ft_tolower.i: ft_tolower.c.i
 
 # target to preprocess a source file
 ft_tolower.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_tolower.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_tolower.c.i
 .PHONY : ft_tolower.c.i
 
 ft_tolower.s: ft_tolower.c.s
@@ -1328,7 +1328,7 @@ ft_tolower.s: ft_tolower.c.s
 
 # target to generate assembly for a file
 ft_tolower.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_tolower.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_tolower.c.s
 .PHONY : ft_tolower.c.s
 
 ft_toupper.obj: ft_toupper.c.obj
@@ -1337,7 +1337,7 @@ ft_toupper.obj: ft_toupper.c.obj
 
 # target to build an object file
 ft_toupper.c.obj:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_toupper.c.obj
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_toupper.c.obj
 .PHONY : ft_toupper.c.obj
 
 ft_toupper.i: ft_toupper.c.i
@@ -1346,7 +1346,7 @@ ft_toupper.i: ft_toupper.c.i
 
 # target to preprocess a source file
 ft_toupper.c.i:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_toupper.c.i
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_toupper.c.i
 .PHONY : ft_toupper.c.i
 
 ft_toupper.s: ft_toupper.c.s
@@ -1355,7 +1355,7 @@ ft_toupper.s: ft_toupper.c.s
 
 # target to generate assembly for a file
 ft_toupper.c.s:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_toupper.c.s
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f libft\CMakeFiles\libft.dir\build.make libft/CMakeFiles/libft.dir/ft_toupper.c.s
 .PHONY : ft_toupper.c.s
 
 # Help Target
@@ -1513,6 +1513,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\kapuc\ft_printf\cmake-build-debug-mingw && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\kapuc\fake\cmake-build-debug-mingw && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

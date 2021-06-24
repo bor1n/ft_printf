@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/kapuc/ft_printf/libft
+# Install script for directory: C:/Users/kapuc/fake/libft
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

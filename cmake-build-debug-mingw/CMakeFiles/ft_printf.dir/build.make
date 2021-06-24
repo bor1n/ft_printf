@@ -61,10 +61,10 @@ RM = C:\Users\kapuc\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7142.21\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\kapuc\ft_printf
+CMAKE_SOURCE_DIR = C:\Users\kapuc\fake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\kapuc\ft_printf\cmake-build-debug-mingw
+CMAKE_BINARY_DIR = C:\Users\kapuc\fake\cmake-build-debug-mingw
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ft_printf.dir/depend.make
@@ -77,120 +77,133 @@ include CMakeFiles/ft_printf.dir/flags.make
 
 CMakeFiles/ft_printf.dir/main.c.obj: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kapuc\ft_printf\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ft_printf.dir/main.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ft_printf.dir\main.c.obj -c C:\Users\kapuc\ft_printf\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kapuc\fake\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ft_printf.dir/main.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ft_printf.dir\main.c.obj -c C:\Users\kapuc\fake\main.c
 
 CMakeFiles/ft_printf.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.dir/main.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kapuc\ft_printf\main.c > CMakeFiles\ft_printf.dir\main.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kapuc\fake\main.c > CMakeFiles\ft_printf.dir\main.c.i
 
 CMakeFiles/ft_printf.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.dir/main.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kapuc\ft_printf\main.c -o CMakeFiles\ft_printf.dir\main.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kapuc\fake\main.c -o CMakeFiles\ft_printf.dir\main.c.s
 
 CMakeFiles/ft_printf.dir/ft_printf.c.obj: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/ft_printf.c.obj: ../ft_printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kapuc\ft_printf\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ft_printf.dir/ft_printf.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ft_printf.dir\ft_printf.c.obj -c C:\Users\kapuc\ft_printf\ft_printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kapuc\fake\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ft_printf.dir/ft_printf.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ft_printf.dir\ft_printf.c.obj -c C:\Users\kapuc\fake\ft_printf.c
 
 CMakeFiles/ft_printf.dir/ft_printf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.dir/ft_printf.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kapuc\ft_printf\ft_printf.c > CMakeFiles\ft_printf.dir\ft_printf.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kapuc\fake\ft_printf.c > CMakeFiles\ft_printf.dir\ft_printf.c.i
 
 CMakeFiles/ft_printf.dir/ft_printf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.dir/ft_printf.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kapuc\ft_printf\ft_printf.c -o CMakeFiles\ft_printf.dir\ft_printf.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kapuc\fake\ft_printf.c -o CMakeFiles\ft_printf.dir\ft_printf.c.s
 
 CMakeFiles/ft_printf.dir/ft_printf_c.c.obj: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/ft_printf_c.c.obj: ../ft_printf_c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kapuc\ft_printf\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ft_printf.dir/ft_printf_c.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ft_printf.dir\ft_printf_c.c.obj -c C:\Users\kapuc\ft_printf\ft_printf_c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kapuc\fake\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ft_printf.dir/ft_printf_c.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ft_printf.dir\ft_printf_c.c.obj -c C:\Users\kapuc\fake\ft_printf_c.c
 
 CMakeFiles/ft_printf.dir/ft_printf_c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.dir/ft_printf_c.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kapuc\ft_printf\ft_printf_c.c > CMakeFiles\ft_printf.dir\ft_printf_c.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kapuc\fake\ft_printf_c.c > CMakeFiles\ft_printf.dir\ft_printf_c.c.i
 
 CMakeFiles/ft_printf.dir/ft_printf_c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.dir/ft_printf_c.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kapuc\ft_printf\ft_printf_c.c -o CMakeFiles\ft_printf.dir\ft_printf_c.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kapuc\fake\ft_printf_c.c -o CMakeFiles\ft_printf.dir\ft_printf_c.c.s
 
 CMakeFiles/ft_printf.dir/ft_printf_d.c.obj: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/ft_printf_d.c.obj: ../ft_printf_d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kapuc\ft_printf\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ft_printf.dir/ft_printf_d.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ft_printf.dir\ft_printf_d.c.obj -c C:\Users\kapuc\ft_printf\ft_printf_d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kapuc\fake\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ft_printf.dir/ft_printf_d.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ft_printf.dir\ft_printf_d.c.obj -c C:\Users\kapuc\fake\ft_printf_d.c
 
 CMakeFiles/ft_printf.dir/ft_printf_d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.dir/ft_printf_d.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kapuc\ft_printf\ft_printf_d.c > CMakeFiles\ft_printf.dir\ft_printf_d.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kapuc\fake\ft_printf_d.c > CMakeFiles\ft_printf.dir\ft_printf_d.c.i
 
 CMakeFiles/ft_printf.dir/ft_printf_d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.dir/ft_printf_d.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kapuc\ft_printf\ft_printf_d.c -o CMakeFiles\ft_printf.dir\ft_printf_d.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kapuc\fake\ft_printf_d.c -o CMakeFiles\ft_printf.dir\ft_printf_d.c.s
 
 CMakeFiles/ft_printf.dir/ft_printf_s.c.obj: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/ft_printf_s.c.obj: ../ft_printf_s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kapuc\ft_printf\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ft_printf.dir/ft_printf_s.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ft_printf.dir\ft_printf_s.c.obj -c C:\Users\kapuc\ft_printf\ft_printf_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kapuc\fake\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ft_printf.dir/ft_printf_s.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ft_printf.dir\ft_printf_s.c.obj -c C:\Users\kapuc\fake\ft_printf_s.c
 
 CMakeFiles/ft_printf.dir/ft_printf_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.dir/ft_printf_s.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kapuc\ft_printf\ft_printf_s.c > CMakeFiles\ft_printf.dir\ft_printf_s.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kapuc\fake\ft_printf_s.c > CMakeFiles\ft_printf.dir\ft_printf_s.c.i
 
 CMakeFiles/ft_printf.dir/ft_printf_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.dir/ft_printf_s.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kapuc\ft_printf\ft_printf_s.c -o CMakeFiles\ft_printf.dir\ft_printf_s.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kapuc\fake\ft_printf_s.c -o CMakeFiles\ft_printf.dir\ft_printf_s.c.s
 
 CMakeFiles/ft_printf.dir/util.c.obj: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/util.c.obj: ../util.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kapuc\ft_printf\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ft_printf.dir/util.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ft_printf.dir\util.c.obj -c C:\Users\kapuc\ft_printf\util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kapuc\fake\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ft_printf.dir/util.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ft_printf.dir\util.c.obj -c C:\Users\kapuc\fake\util.c
 
 CMakeFiles/ft_printf.dir/util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.dir/util.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kapuc\ft_printf\util.c > CMakeFiles\ft_printf.dir\util.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kapuc\fake\util.c > CMakeFiles\ft_printf.dir\util.c.i
 
 CMakeFiles/ft_printf.dir/util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.dir/util.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kapuc\ft_printf\util.c -o CMakeFiles\ft_printf.dir\util.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kapuc\fake\util.c -o CMakeFiles\ft_printf.dir\util.c.s
 
 CMakeFiles/ft_printf.dir/ft_printf_u.c.obj: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/ft_printf_u.c.obj: ../ft_printf_u.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kapuc\ft_printf\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/ft_printf.dir/ft_printf_u.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ft_printf.dir\ft_printf_u.c.obj -c C:\Users\kapuc\ft_printf\ft_printf_u.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kapuc\fake\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/ft_printf.dir/ft_printf_u.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ft_printf.dir\ft_printf_u.c.obj -c C:\Users\kapuc\fake\ft_printf_u.c
 
 CMakeFiles/ft_printf.dir/ft_printf_u.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.dir/ft_printf_u.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kapuc\ft_printf\ft_printf_u.c > CMakeFiles\ft_printf.dir\ft_printf_u.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kapuc\fake\ft_printf_u.c > CMakeFiles\ft_printf.dir\ft_printf_u.c.i
 
 CMakeFiles/ft_printf.dir/ft_printf_u.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.dir/ft_printf_u.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kapuc\ft_printf\ft_printf_u.c -o CMakeFiles\ft_printf.dir\ft_printf_u.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kapuc\fake\ft_printf_u.c -o CMakeFiles\ft_printf.dir\ft_printf_u.c.s
 
 CMakeFiles/ft_printf.dir/ft_printf_x.c.obj: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/ft_printf_x.c.obj: ../ft_printf_x.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kapuc\ft_printf\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/ft_printf.dir/ft_printf_x.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ft_printf.dir\ft_printf_x.c.obj -c C:\Users\kapuc\ft_printf\ft_printf_x.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kapuc\fake\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/ft_printf.dir/ft_printf_x.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ft_printf.dir\ft_printf_x.c.obj -c C:\Users\kapuc\fake\ft_printf_x.c
 
 CMakeFiles/ft_printf.dir/ft_printf_x.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.dir/ft_printf_x.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kapuc\ft_printf\ft_printf_x.c > CMakeFiles\ft_printf.dir\ft_printf_x.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kapuc\fake\ft_printf_x.c > CMakeFiles\ft_printf.dir\ft_printf_x.c.i
 
 CMakeFiles/ft_printf.dir/ft_printf_x.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.dir/ft_printf_x.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kapuc\ft_printf\ft_printf_x.c -o CMakeFiles\ft_printf.dir\ft_printf_x.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kapuc\fake\ft_printf_x.c -o CMakeFiles\ft_printf.dir\ft_printf_x.c.s
 
 CMakeFiles/ft_printf.dir/ft_printf_p.c.obj: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/ft_printf_p.c.obj: ../ft_printf_p.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kapuc\ft_printf\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/ft_printf.dir/ft_printf_p.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ft_printf.dir\ft_printf_p.c.obj -c C:\Users\kapuc\ft_printf\ft_printf_p.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kapuc\fake\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/ft_printf.dir/ft_printf_p.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ft_printf.dir\ft_printf_p.c.obj -c C:\Users\kapuc\fake\ft_printf_p.c
 
 CMakeFiles/ft_printf.dir/ft_printf_p.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.dir/ft_printf_p.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kapuc\ft_printf\ft_printf_p.c > CMakeFiles\ft_printf.dir\ft_printf_p.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kapuc\fake\ft_printf_p.c > CMakeFiles\ft_printf.dir\ft_printf_p.c.i
 
 CMakeFiles/ft_printf.dir/ft_printf_p.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.dir/ft_printf_p.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kapuc\ft_printf\ft_printf_p.c -o CMakeFiles\ft_printf.dir\ft_printf_p.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kapuc\fake\ft_printf_p.c -o CMakeFiles\ft_printf.dir\ft_printf_p.c.s
+
+CMakeFiles/ft_printf.dir/util2.c.obj: CMakeFiles/ft_printf.dir/flags.make
+CMakeFiles/ft_printf.dir/util2.c.obj: ../util2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kapuc\fake\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/ft_printf.dir/util2.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ft_printf.dir\util2.c.obj -c C:\Users\kapuc\fake\util2.c
+
+CMakeFiles/ft_printf.dir/util2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.dir/util2.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kapuc\fake\util2.c > CMakeFiles\ft_printf.dir\util2.c.i
+
+CMakeFiles/ft_printf.dir/util2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.dir/util2.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kapuc\fake\util2.c -o CMakeFiles\ft_printf.dir\util2.c.s
 
 # Object files for target ft_printf
 ft_printf_OBJECTS = \
@@ -202,7 +215,8 @@ ft_printf_OBJECTS = \
 "CMakeFiles/ft_printf.dir/util.c.obj" \
 "CMakeFiles/ft_printf.dir/ft_printf_u.c.obj" \
 "CMakeFiles/ft_printf.dir/ft_printf_x.c.obj" \
-"CMakeFiles/ft_printf.dir/ft_printf_p.c.obj"
+"CMakeFiles/ft_printf.dir/ft_printf_p.c.obj" \
+"CMakeFiles/ft_printf.dir/util2.c.obj"
 
 # External object files for target ft_printf
 ft_printf_EXTERNAL_OBJECTS =
@@ -216,12 +230,13 @@ ft_printf.exe: CMakeFiles/ft_printf.dir/util.c.obj
 ft_printf.exe: CMakeFiles/ft_printf.dir/ft_printf_u.c.obj
 ft_printf.exe: CMakeFiles/ft_printf.dir/ft_printf_x.c.obj
 ft_printf.exe: CMakeFiles/ft_printf.dir/ft_printf_p.c.obj
+ft_printf.exe: CMakeFiles/ft_printf.dir/util2.c.obj
 ft_printf.exe: CMakeFiles/ft_printf.dir/build.make
 ft_printf.exe: libft/liblibft.a
 ft_printf.exe: CMakeFiles/ft_printf.dir/linklibs.rsp
 ft_printf.exe: CMakeFiles/ft_printf.dir/objects1.rsp
 ft_printf.exe: CMakeFiles/ft_printf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\kapuc\ft_printf\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable ft_printf.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\kapuc\fake\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable ft_printf.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ft_printf.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -234,6 +249,6 @@ CMakeFiles/ft_printf.dir/clean:
 .PHONY : CMakeFiles/ft_printf.dir/clean
 
 CMakeFiles/ft_printf.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\kapuc\ft_printf C:\Users\kapuc\ft_printf C:\Users\kapuc\ft_printf\cmake-build-debug-mingw C:\Users\kapuc\ft_printf\cmake-build-debug-mingw C:\Users\kapuc\ft_printf\cmake-build-debug-mingw\CMakeFiles\ft_printf.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\kapuc\fake C:\Users\kapuc\fake C:\Users\kapuc\fake\cmake-build-debug-mingw C:\Users\kapuc\fake\cmake-build-debug-mingw C:\Users\kapuc\fake\cmake-build-debug-mingw\CMakeFiles\ft_printf.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ft_printf.dir/depend
 

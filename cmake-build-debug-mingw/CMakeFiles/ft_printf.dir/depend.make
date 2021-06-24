@@ -37,3 +37,7 @@ CMakeFiles/ft_printf.dir/util.c.obj: ../includes/ft_printf.h
 CMakeFiles/ft_printf.dir/util.c.obj: ../libft/libft.h
 CMakeFiles/ft_printf.dir/util.c.obj: ../util.c
 
+CMakeFiles/ft_printf.dir/util2.c.obj: ../includes/ft_printf.h
+CMakeFiles/ft_printf.dir/util2.c.obj: ../libft/libft.h
+CMakeFiles/ft_printf.dir/util2.c.obj: ../util2.c
+

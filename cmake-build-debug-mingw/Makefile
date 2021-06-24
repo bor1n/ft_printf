@@ -66,10 +66,10 @@ RM = C:\Users\kapuc\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7142.21\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\kapuc\ft_printf
+CMAKE_SOURCE_DIR = C:\Users\kapuc\fake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\kapuc\ft_printf\cmake-build-debug-mingw
+CMAKE_BINARY_DIR = C:\Users\kapuc\fake\cmake-build-debug-mingw
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kapuc\ft_printf\cmake-build-debug-mingw\CMakeFiles C:\Users\kapuc\ft_printf\cmake-build-debug-mingw\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kapuc\fake\cmake-build-debug-mingw\CMakeFiles C:\Users\kapuc\fake\cmake-build-debug-mingw\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kapuc\ft_printf\cmake-build-debug-mingw\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kapuc\fake\cmake-build-debug-mingw\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -397,6 +397,33 @@ util.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ft_printf.dir\build.make CMakeFiles/ft_printf.dir/util.c.s
 .PHONY : util.c.s
 
+util2.obj: util2.c.obj
+
+.PHONY : util2.obj
+
+# target to build an object file
+util2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ft_printf.dir\build.make CMakeFiles/ft_printf.dir/util2.c.obj
+.PHONY : util2.c.obj
+
+util2.i: util2.c.i
+
+.PHONY : util2.i
+
+# target to preprocess a source file
+util2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ft_printf.dir\build.make CMakeFiles/ft_printf.dir/util2.c.i
+.PHONY : util2.c.i
+
+util2.s: util2.c.s
+
+.PHONY : util2.s
+
+# target to generate assembly for a file
+util2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ft_printf.dir\build.make CMakeFiles/ft_printf.dir/util2.c.s
+.PHONY : util2.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -434,6 +461,9 @@ help:
 	@echo ... util.obj
 	@echo ... util.i
 	@echo ... util.s
+	@echo ... util2.obj
+	@echo ... util2.i
+	@echo ... util2.s
 .PHONY : help
 
 

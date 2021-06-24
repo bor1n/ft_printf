@@ -16,7 +16,7 @@ int main() {
 //	int my_printf_d = ft_printf(format_u, u);
 //	ft_printf("!");
 
-	char *format_d = "%010d";
+	char *format_d = "%.1d";
 	int d = -11;
 	int printf_d = printf(format_d, d);
 	ft_printf("!");

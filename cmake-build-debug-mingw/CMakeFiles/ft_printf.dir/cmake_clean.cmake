@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ft_printf.dir/ft_printf_x.c.obj"
   "CMakeFiles/ft_printf.dir/main.c.obj"
   "CMakeFiles/ft_printf.dir/util.c.obj"
+  "CMakeFiles/ft_printf.dir/util2.c.obj"
   "ft_printf.exe"
   "ft_printf.exe.manifest"
   "ft_printf.pdb"
