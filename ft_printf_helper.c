@@ -63,3 +63,23 @@ void	get_precision(t_flags *flags, const char **format, va_list *args)
 		get_precision_digit(flags, format);
 	}
 }
+
+void	get_zero(t_flags *flags, const char **format)
+{
+	while (**format == '0')
+	{
+		flags->zero = 1;
+		flags->zero_char = 1;
+		(*format)++;
+	}
+}
+
+void	get_minus(t_flags *flags, const char **format)
+{
+	while (**format == '-')
+	{
+		flags->minus = 1;
+		flags->zero = 0;
+		(*format)++;
+	}
+}

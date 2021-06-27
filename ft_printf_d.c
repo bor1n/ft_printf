@@ -35,8 +35,6 @@ static int	print_align_left(int d, int width, t_flags flags)
 		ft_putchar_fd(' ', 1);
 		temp++;
 	}
-	if (d < 0)
-		temp++;
 	return (temp);
 }
 
@@ -44,27 +42,26 @@ static int	print_align_right(int d, int width, t_flags flags)
 {
 	char	space_symbol;
 	int		temp;
-	int		minus;
 
 	temp = 0;
-	minus = 0;
 	space_symbol = get_space_symbol(flags.zero);
 	if (d < 0 && space_symbol == '0')
 	{
 		ft_putchar_fd('-', 1);
 		d *= -1;
-		minus = 1;
-		width--;
+		temp++;
 	}
 	while (temp++ < width - max(int_length(d), flags.precision) - (d < 0))
 		ft_putchar_fd(space_symbol, 1);
+	temp--;
 	if ((flags.precision == 0 || (flags.default_prec && flags.dot)) && d == 0)
+	{
 		ft_putchar_fd(space_symbol, 1);
+		temp++;
+	}
 	else
-		print_precision(d, flags);
-	if (minus == 1)
-		width += 2;
-	return (width);
+		temp += print_precision(d, flags);
+	return (temp);
 }
 
 static int	check_solo_dot(t_flags flags, int d)

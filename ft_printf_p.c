@@ -24,13 +24,16 @@ static int	print_align_left(unsigned long p, int width, t_flags flags)
 			&& p == 0))
 		temp += print_precision(p, flags);
 	else
+	{
 		ft_putstr_fd("0x", 1);
+		temp += 2;
+	}
 	while (temp < width)
 	{
 		ft_putchar_fd(' ', 1);
 		temp++;
 	}
-	return (width);
+	return (temp);
 }
 
 static int	print_align_right(unsigned long p, int width, t_flags flags)
@@ -50,10 +53,11 @@ static int	print_align_right(unsigned long p, int width, t_flags flags)
 	{
 		ft_putchar_fd(space_symbol, 1);
 		ft_putstr_fd("0x", 1);
+		temp += 2;
 	}
 	else
-		print_precision(p, flags);
-	return (width);
+		temp += print_precision(p, flags);
+	return (temp);
 }
 
 int	ft_printf_p(t_flags flags, void *p)

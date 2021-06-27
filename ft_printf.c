@@ -1,5 +1,7 @@
 #include "includes/ft_printf.h"
 
+void	get_zero(t_flags *flags, const char **format);
+void	get_minus(t_flags *flags, const char **format);
 void	get_width(t_flags *flags, const char **format, va_list *args);
 void	get_precision(t_flags *flags, const char **format, va_list *args);
 
@@ -14,18 +16,10 @@ void	get_args(t_flags *flags, const char **format, va_list *args)
 	flags->default_prec = 1;
 	flags->type = 0;
 	flags->zero_char = 0;
-	while (**format == '0')
-	{
-		flags->zero = 1;
-		flags->zero_char = 1;
-		(*format)++;
-	}
-	while (**format == '-')
-	{
-		flags->minus = 1;
-		flags->zero = 0;
-		(*format)++;
-	}
+	if (**format == 0)
+		return ;
+	get_zero(flags, format);
+	get_minus(flags, format);
 	get_width(flags, format, args);
 	get_precision(flags, format, args);
 	flags->type = **format;
@@ -49,6 +43,8 @@ int	parse(t_flags flags, va_list *args)
 		return (ft_printf_x(flags, va_arg(*args, int), "0123456789ABCDEF"));
 	if (flags.type == 'p')
 		return (ft_printf_p(flags, va_arg(*args, void *)));
+	if (flags.type == 0)
+		return (0);
 	return (1);
 }
 
@@ -67,6 +63,8 @@ int	ft_printf(const char *format, ...)
 			format++;
 			get_args(&flags, &format, &args);
 			result += parse(flags, &args);
+			if (*format == 0)
+				break ;
 		}
 		else
 		{

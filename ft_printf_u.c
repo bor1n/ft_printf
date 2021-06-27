@@ -43,10 +43,13 @@ static int	print_align_right(unsigned int d, int width, t_flags flags)
 		temp++;
 	}
 	if ((flags.precision == 0 || (flags.default_prec && flags.dot)) && d == 0)
+	{
 		ft_putchar_fd(space_symbol, 1);
+		temp++;
+	}
 	else
-		print_precision(d, flags.precision);
-	return (width);
+		temp += print_precision(d, flags.precision);
+	return (temp);
 }
 
 static int	check_solo_dot(t_flags flags, unsigned int d)
