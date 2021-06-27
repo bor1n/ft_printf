@@ -14,13 +14,13 @@ static int	print_align_left(unsigned char c, int width)
 	return (width);
 }
 
-static int print_align_right(unsigned char c, int width, t_flags flags)
+static int	print_align_right(unsigned char c, int width, t_flags flags)
 {
 	char	space_symbol;
 	int		temp;
 
 	temp = 0;
-	space_symbol = get_space_symbol(flags.zero);
+	space_symbol = get_space_symbol(flags.zero_char);
 	while (temp < width - 1)
 	{
 		ft_putchar_fd(space_symbol, 1);
@@ -30,8 +30,7 @@ static int print_align_right(unsigned char c, int width, t_flags flags)
 	return (width);
 }
 
-
-int ft_printf_c(t_flags flags, int c)
+int	ft_printf_c(t_flags flags, int c)
 {
 	int		width;
 

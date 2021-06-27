@@ -42,7 +42,7 @@ void	ft_putstr_fd(char *s, int fd);
 void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
 void	ft_putunbr_fd(unsigned int n, int fd);
-void	ft_putunbr_base_fd(int nbr, char *base, int fd);
+void	ft_putunbr_base_fd(unsigned long nbr, char *base, int fd);
 
 typedef struct s_list
 {

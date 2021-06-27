@@ -2,9 +2,9 @@
 
 static int	print_precision(unsigned int d, int precision)
 {
-	int result;
+	int	result;
 
-	result = get_int_length(d);
+	result = get_uint_length(d);
 	while (result < precision)
 	{
 		ft_putchar_fd('0', 1);
@@ -18,7 +18,10 @@ static int	print_align_left(unsigned int d, int width, t_flags flags)
 {
 	int		temp;
 
-	temp = print_precision(d, flags.precision);
+	temp = 0;
+	if (!((flags.precision == 0 || (flags.default_prec && flags.dot))
+			&& d == 0))
+		temp += print_precision(d, flags.precision);
 	while (temp < width)
 	{
 		ft_putchar_fd(' ', 1);
@@ -27,29 +30,42 @@ static int	print_align_left(unsigned int d, int width, t_flags flags)
 	return (width);
 }
 
-static int print_align_right(unsigned int d, int width, t_flags flags)
+static int	print_align_right(unsigned int d, int width, t_flags flags)
 {
 	char	space_symbol;
 	int		temp;
 
 	temp = 0;
 	space_symbol = get_space_symbol(flags.zero);
-	while (temp < width - max(get_int_length(d), flags.precision))
+	while (temp < width - max(get_uint_length(d), flags.precision))
 	{
 		ft_putchar_fd(space_symbol, 1);
 		temp++;
 	}
-	print_precision(d, flags.precision);
+	if ((flags.precision == 0 || (flags.default_prec && flags.dot)) && d == 0)
+		ft_putchar_fd(space_symbol, 1);
+	else
+		print_precision(d, flags.precision);
 	return (width);
+}
+
+static int	check_solo_dot(t_flags flags, unsigned int d)
+{
+	if (flags.width == 0 && flags.dot && d == 0)
+	{
+		if (flags.default_prec || flags.precision == 0)
+			return (1);
+	}
+	return (0);
 }
 
 int	ft_printf_u(t_flags flags, unsigned int d)
 {
 	int		width;
 
-	if (flags.precision == 0 && d == 0)
+	if (check_solo_dot(flags, d))
 		return (0);
-	width = max(max(get_int_length(d), flags.precision), flags.width);
+	width = max(max(int_length(d), flags.precision), flags.width);
 	if (flags.minus == 1)
 		return (print_align_left(d, width, flags));
 	else

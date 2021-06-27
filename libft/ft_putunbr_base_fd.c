@@ -1,8 +1,8 @@
 #include "libft.h"
 
-int		ft_check_characters(char *base)
+int	ft_check_characters(char *base)
 {
-	char *pointer;
+	char	*pointer;
 
 	if (*base == 0)
 		return (1);
@@ -24,9 +24,9 @@ int		ft_check_characters(char *base)
 	return (0);
 }
 
-void	print_number(int nbr, char *base, int length, int fd)
+void	print_number(unsigned long nbr, char *base, int length, int fd)
 {
-	int index_of_symbol;
+	unsigned long	index_of_symbol;
 
 	if (nbr != 0 && (nbr / length != 0))
 		print_number(nbr / length, base, length, fd);
@@ -34,7 +34,7 @@ void	print_number(int nbr, char *base, int length, int fd)
 	ft_putchar_fd(base[index_of_symbol], fd);
 }
 
-void	ft_putunbr_base_fd(int nbr, char *base, int fd)
+void	ft_putunbr_base_fd(unsigned long nbr, char *base, int fd)
 {
 	int		length;
 
@@ -43,4 +43,3 @@ void	ft_putunbr_base_fd(int nbr, char *base, int fd)
 	length = (int)ft_strlen(base);
 	print_number(nbr, base, length, fd);
 }
-

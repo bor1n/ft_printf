@@ -1,7 +1,7 @@
 NAME 	= libftprintf.a
 
 LIBFT = libft
-SRCS	= ft_printf.c ft_printf_c.c ft_printf_s.c ft_printf_d.c ft_printf_u.c ft_printf_x.c ft_printf_p.c util.c util2.c
+SRCS	= ft_printf.c ft_printf_helper.c ft_printf_c.c ft_printf_s.c ft_printf_d.c ft_printf_u.c ft_printf_x.c ft_printf_p.c util.c util2.c
 SRCS_B	=
 
 OBJS	= $(patsubst %.c,%.o,$(SRCS))

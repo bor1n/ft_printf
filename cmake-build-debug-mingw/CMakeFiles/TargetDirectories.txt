@@ -1,6 +1,0 @@
-C:/Users/kapuc/fake/cmake-build-debug-mingw/CMakeFiles/ft_printf.dir
-C:/Users/kapuc/fake/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
-C:/Users/kapuc/fake/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
-C:/Users/kapuc/fake/cmake-build-debug-mingw/libft/CMakeFiles/libft.dir
-C:/Users/kapuc/fake/cmake-build-debug-mingw/libft/CMakeFiles/edit_cache.dir
-C:/Users/kapuc/fake/cmake-build-debug-mingw/libft/CMakeFiles/rebuild_cache.dir

@@ -2,7 +2,7 @@
 
 static void	putstr_len(char *s, int length)
 {
-	while(length > 0)
+	while (length > 0)
 	{
 		ft_putchar_fd(*s, 1);
 		length--;
@@ -19,7 +19,7 @@ static int	get_length(char *s, t_flags flags)
 
 static int	print_align_left(char *s, int width, t_flags flags)
 {
-	int length;
+	int	length;
 
 	length = get_length(s, flags);
 	putstr_len(s, length);
@@ -31,7 +31,7 @@ static int	print_align_left(char *s, int width, t_flags flags)
 	return (width);
 }
 
-static int print_align_right(char *s, int width, t_flags flags)
+static int	print_align_right(char *s, int width, t_flags flags)
 {
 	char	space_symbol;
 	int		length_s;
@@ -49,15 +49,16 @@ static int print_align_right(char *s, int width, t_flags flags)
 	return (width);
 }
 
-int ft_printf_s(t_flags flags, char *s) {
-    int width;
+int	ft_printf_s(t_flags flags, char *s)
+{
+	int	width;
 
-    if (s == 0)
-        return ft_printf_s(flags, "(null)");
-	if (flags.dot && flags.default_precision)
-	    flags.precision = 0;
+	if (s == 0)
+		return (ft_printf_s(flags, "(null)"));
+	if (flags.dot && flags.default_prec)
+		flags.precision = 0;
 	if (flags.precision < 0)
-	    flags.precision = (int)ft_strlen(s);
+		flags.precision = (int)ft_strlen(s);
 	width = max(get_length(s, flags), flags.width);
 	if (flags.minus == 1)
 		return (print_align_left(s, width, flags));
